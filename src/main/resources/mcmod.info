@@ -1,13 +1,13 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "mreproject",
+  "name": "MRE Project",
+  "description": "Add some MRE food items",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["lostjarred"],
+  "authorList": ["Lostone1993"],
   "credits": "Authors of this project, CleanroomMC",
   "logoFile": "",
   "screenshots": [],
