@@ -1,4 +1,4 @@
 #items
-item.mrefooditem.name=Ration
-item.mredrinkfooditem.name=Prepared Ration Drink
-item.mredrinkitem.name=Ration Drink
+item.mreitemfood.name=Ration
+item.mreitemfooddrink.name=Prepared Ration Drink
+item.misc.name=Ration Drink
