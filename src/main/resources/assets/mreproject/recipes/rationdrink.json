@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item":"mreproject:misc"
+		},
+		{
+			"type":"minecraft:item_nbt",
+			"item":"minecraft:potion",
+			"nbt":{
+				"Potion": "minecraft:water"
+			}
+		}
+	],
+	"result":{
+		"item":"mreproject:mreitemfooddrink",
+		"count": 1
+	}
+}
