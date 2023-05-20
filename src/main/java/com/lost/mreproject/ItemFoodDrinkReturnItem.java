@@ -1,6 +1,9 @@
 package com.lost.mreproject;
 
+import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.world.World;
 
 public class ItemFoodDrinkReturnItem extends ItemFoodDrinkBase {
 	
@@ -10,6 +13,12 @@ public class ItemFoodDrinkReturnItem extends ItemFoodDrinkBase {
 		super(amount, saturation, name);
 		this.setMaxStackSize(1);
 		this.returnitem = returnitem;
+	}
+	
+	@Override
+	public ItemStack onItemUseFinish(ItemStack stack, World worldIn, EntityLivingBase entityLiving) {
+		super.onItemUseFinish(stack, worldIn, entityLiving);
+		return new ItemStack(returnitem);
 	}
 
 }
