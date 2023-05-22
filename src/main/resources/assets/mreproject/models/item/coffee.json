@@ -1,6 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "items/potion_bottle_empty"
+    "layer0": "mreproject:items/bottle_coffee_layer0",
+	"layer1": "minecraft:items/potion_bottle_empty"
   }
 }
