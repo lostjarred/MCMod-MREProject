@@ -2,6 +2,7 @@ package com.lost.mreproject;
 
 import com.lost.mreproject.proxy.CommonProxy;
 
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
@@ -17,6 +18,8 @@ public class MreProject {
 	public static final String MODID = "mreproject";
 	public static final String NAME = "MRE Project";
 	public static final String VERSION = "1.0.0";
+	
+	public static final CreativeTabs MREFOODS_TAB = new CreativeTabMRE();
 	
 	@Mod.Instance(MODID)
 	public static MreProject instance;

@@ -6,11 +6,11 @@ import net.minecraft.item.Item;
 import net.minecraftforge.registries.IForgeRegistry;
 
 public class ModItems {
-	public static ItemFoodBase MREITEMFOOD = new ItemFoodBase(8, 0.8f, false, "mreitemfood").setCreativeTab(CreativeTabs.FOOD);
-	public static ItemFoodDrinkBase MREITEMFOODDRINK = new ItemFoodDrinkBase(8, 0.8f, "mreitemfooddrink").setCreativeTab(CreativeTabs.FOOD);
-	public static ItemBase MISC = new ItemBase("misc").setCreativeTab(CreativeTabs.FOOD);
+	public static ItemFoodBase MREITEMFOOD = new ItemFoodBase(8, 0.8f, false, "mreitemfood").setCreativeTab(MreProject.MREFOODS_TAB);
+	public static ItemFoodDrinkBase MREITEMFOODDRINK = new ItemFoodDrinkBase(8, 0.8f, "mreitemfooddrink").setCreativeTab(MreProject.MREFOODS_TAB);
+	public static ItemBase MISC = new ItemBase("misc").setCreativeTab(MreProject.MREFOODS_TAB);
 	//temp for testing
-	public static ItemFoodDrinkReturnItem COFFEE = new ItemFoodDrinkReturnItem(8, 0.8f, "coffee", Items.GLASS_BOTTLE);
+	public static ItemFoodDrinkReturnItem COFFEE = new ItemFoodDrinkReturnItem(8, 0.8f, "coffee", Items.GLASS_BOTTLE).setCreativeTab(MreProject.MREFOODS_TAB);
 	
 	public static void register(IForgeRegistry<Item> registry) {
 		registry.register(MREITEMFOOD);

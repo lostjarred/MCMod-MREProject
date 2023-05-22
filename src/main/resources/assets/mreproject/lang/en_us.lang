@@ -3,3 +3,5 @@ item.mreitemfood.name=Ration
 item.mreitemfooddrink.name=Ration Drink
 item.misc.name=Instant Coffee Packet
 item.coffee.name=Instant Coffee 
+#Creative Tabs
+itemGroup.mrefood=MRE Items
