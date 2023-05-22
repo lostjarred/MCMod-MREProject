@@ -1,5 +1,6 @@
 package com.lost.mreproject;
 
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -20,5 +21,10 @@ public class ItemFoodDrinkReturnItem extends ItemFoodDrinkBase {
 		super.onItemUseFinish(stack, worldIn, entityLiving);
 		return new ItemStack(returnitem);
 	}
-
+	
+	@Override
+	public ItemFoodDrinkReturnItem setCreativeTab(CreativeTabs tab) {
+		super.setCreativeTab(tab);
+		return this;
+	}
 }
