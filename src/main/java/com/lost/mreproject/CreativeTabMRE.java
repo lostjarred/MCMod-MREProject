@@ -11,7 +11,7 @@ public class CreativeTabMRE extends CreativeTabs {
 
 	@Override
 	public ItemStack createIcon() {
-		return new ItemStack(ModItems.MREITEMFOOD);
+		return new ItemStack(ModItems.MREFOOD);
 	}
 
 }
