@@ -1,4 +1,9 @@
-Simple mod for my mod pack adds a ration food item
+Simple mod for my mod pack adds a few ration food item
+
+-an MRE item that has the same hunger/saturation as a steak
+-an MRE Drink item that as slightly less 
+-an insteat cofee item used to craft
+-an coffee drink made from a item and a water bottle has the least hunger and saturation values
 
 Minecraft Version: 1.12.2
 
