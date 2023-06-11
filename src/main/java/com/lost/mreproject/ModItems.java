@@ -1,6 +1,5 @@
 package com.lost.mreproject;
 
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraftforge.registries.IForgeRegistry;
