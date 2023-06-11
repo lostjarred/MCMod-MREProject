@@ -1,5 +1,10 @@
 package com.lost.mreproject;
 
+import com.lost.mreproject.items.ItemBase;
+import com.lost.mreproject.items.ItemFoodBase;
+import com.lost.mreproject.items.ItemFoodDrinkBase;
+import com.lost.mreproject.items.ItemFoodDrinkReturnItemEffect;
+
 import net.minecraft.init.Items;
 import net.minecraft.init.MobEffects;
 import net.minecraft.item.Item;

@@ -1,4 +1,4 @@
-package com.lost.mreproject;
+package com.lost.mreproject.items;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.EntityLivingBase;

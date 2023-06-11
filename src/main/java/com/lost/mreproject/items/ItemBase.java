@@ -1,4 +1,6 @@
-package com.lost.mreproject;
+package com.lost.mreproject.items;
+
+import com.lost.mreproject.MreProject;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
