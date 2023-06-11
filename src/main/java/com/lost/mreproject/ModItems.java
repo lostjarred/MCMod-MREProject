@@ -2,6 +2,7 @@ package com.lost.mreproject;
 
 import com.lost.mreproject.items.ItemBase;
 import com.lost.mreproject.items.ItemFoodBase;
+import com.lost.mreproject.items.ItemFoodBaseSub;
 import com.lost.mreproject.items.ItemFoodDrinkBase;
 import com.lost.mreproject.items.ItemFoodDrinkReturnItemEffect;
 
@@ -12,7 +13,7 @@ import net.minecraft.potion.PotionEffect;
 import net.minecraftforge.registries.IForgeRegistry;
 
 public class ModItems {
-	public static ItemFoodBase MREFOOD = new ItemFoodBase(8, 0.8f, false, "mrefood").setCreativeTab(MreProject.MREFOODS_TAB);
+	public static ItemFoodBaseSub MREFOOD = new ItemFoodBaseSub(8, 0.8f, "mrefood").setCreativeTab(MreProject.MREFOODS_TAB);
 	public static ItemFoodDrinkBase MREDRINK = new ItemFoodDrinkBase(5, 0.8f, "mredrink").setCreativeTab(MreProject.MREFOODS_TAB);
 	public static ItemBase MISC = new ItemBase("misc").setCreativeTab(MreProject.MREFOODS_TAB);
 	//20 tic, 1 second

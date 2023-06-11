@@ -1,5 +1,6 @@
 #items
-item.mrefood.name=Ration
+item.mrefood.0.name=Ration
+item.mrefood.1.name=Canned Ration
 item.mredrink.name=Ration Drink
 item.misc.name=Instant Coffee Packet
 item.mredrink2.name=Instant Coffee 
