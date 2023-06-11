@@ -17,7 +17,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 public class MreProject {
 	public static final String MODID = "mreproject";
 	public static final String NAME = "MRE Project";
-	public static final String VERSION = "0.1.0";
+	public static final String VERSION = "0.1.1";
 	
 	public static final CreativeTabs MREFOODS_TAB = new CreativeTabMRE();
 	
