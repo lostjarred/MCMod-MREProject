@@ -29,7 +29,7 @@ public class ItemFoodBaseSub extends ItemFoodBase {
 			healAmount = 8;
 		}
 		if (meta == 1) {
-			healAmount = 4;
+			healAmount = 5;
 		}
         
 		return healAmount;
@@ -45,7 +45,7 @@ public class ItemFoodBaseSub extends ItemFoodBase {
 			saturationModifier = 0.8f;
 		}
 		if (meta == 1) {
-			saturationModifier = 0.4f;
+			saturationModifier = 0.6f;
 		}
         return saturationModifier;
     }
